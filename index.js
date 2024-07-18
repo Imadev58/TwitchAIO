@@ -24,25 +24,25 @@ request = require('request'),
 
 XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest,
 
-admins = ["794143054117601310", "547085380827086859", "582502664252686356"],
+admins = ["1244016444753182730", "", ""],
 
 config = {
 
-    "1252626868734001259": 1000,
+    "1262028763147931689": 1000,
 
-    "838871745821016074": 400,
+    "1262028763143868425": 400,
 
-    "838871751663550555": 375,
+    "": 2000,
 
-    "838871755518247013": 300,
+    "": 300,
 
-    "1252626874216222740": 100,
+    "": 100,
 
     "1252626874996228138": 50,
 
-    "1221115618779201597": 25,
+    "1262028763143868424": 25,
 
-    "1257605515178152059": 10,
+    "1262028763143868423": 10,
 
 } 
 
@@ -52,7 +52,7 @@ tokens = tokens.split("\n")
 
 client.on('ready', async () => {
 
-      client.user.setActivity(`${prefix}help`, { type: "WATCHING" });
+      client.user.setActivity(`Powered by Nightmare`, { type: "WATCHING" });
 
       console.log(`${client.user.tag} is ready!`)
 
@@ -198,7 +198,7 @@ if (command === "buy") {
 
     message.channel.send(new Discord.MessageEmbed()
 
-        .setDescription(`$30 for Lifetime, DM **quehole** for more info!`)
+        .setDescription(`$30 for Lifetime, DM **Nightmare** for more info!`)
 
         .setColor("PURPLE")
 
